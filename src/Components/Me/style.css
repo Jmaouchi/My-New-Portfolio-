@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+.format-section{
+  position: relative;
+  background-color: rgb(230, 228, 228);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -999;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.dots{
+  position: relative;
+  margin-top: 20px;
+  background-color: rgb(172, 172, 171);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.dots-display{
+  display: flex;
+  float: left;
+  background-color: rgb(92, 88, 88);
+  padding: 15px;
+}
+
+.red-dot{
+  background-color: red;
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+}
+
+.yellow-dot{
+  background-color: rgb(205, 205, 61);
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+}
+
+.green-dot{
+  background-color: green;
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+}
+
+.dot{
+  margin-left: 5px;
+}
+
+.content-about-me{
+  display: flex;
+}
+
+.sign{
+  position: absolute;
+  width: 200px;
+  top: 83%;
+  z-index: 1;
+  left: -120px;
+  transform: rotate(-90deg);
+}
+
+.my-image{
+  opacity: 0.9;
+  width: 100%;
+}
+
+.content-context{
+  position: relative;
+}
+
+.left-heading{
+  position: absolute;
+  left: -65px;
+  font-size: 55px;
+  color: rgb(43, 41, 41);
+}
+
+
+.inside-heading{
+  margin-top: 65px;
+  margin-left: 5px;
+  color: rgb(43, 41, 41);
+  font-size: 45px;
+}
+
+.welcome-paragraph{
+  font-size: 20px;
+  color: rgb(58, 58, 58);
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+
+.section-two-about-me{
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-content-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.my-image-two{
+  width: 200px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.about-me-content-two{
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.scl-media{
+  position: absolute;
+  bottom: 0;
+  left: -2%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+    cursor: pointer;
+}
+
+
+.scl-item{
+  margin-top: 25px;
+  cursor: alias;
+  cursor: pointer;
+}
+
+
+.facebook, .insstagram{
+  color: rgb(18, 17, 17);
+  width: 5px;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1540px) {
+
+  .dots{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .left-heading{
+    position: absolute;
+    font-size: 45px;
+    color: rgb(43, 41, 41);
+  }
+  
+  
+  .inside-heading{
+    margin-top: 65px;
+    font-size: 35px;
+  }
+
+  .welcome-paragraph{
+    font-size: 16px;
+    margin-left: 35px;
+  }
+
+  .section-two-about-me{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-me-content-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
+  
+  .my-image-two{
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .my-image{
+    opacity: 0.9;
+    width: 50%;
+  }
+  
+  .about-me-content-two{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .about-me-paragraph{
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .left-heading{
+    position: absolute;
+    font-size: 40px;
+    color: rgb(43, 41, 41);
+  }
+  
+  
+  .inside-heading{
+    margin-top: 45px;
+    font-size: 38px;
+  }
+
+  .welcome-paragraph{
+    font-size: 14px;
+    margin-left: 9px;
+  }
+
+  .section-two-about-me{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-me-content-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .my-image-two{
+    width: 180px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .my-image{
+    opacity: 0.9;
+  }
+  
+  .about-me-content-two{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .about-me-paragraph{
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .sign{
+    width: 200px;
+    top: 81%;
+  }
+  
+}
+
+@media screen and (max-width: 986px) {
+
+  .format-section{
+    min-height: 80vh;
+    display: flex;
+  }
+  
+  .dots{
+    width: 90%;
+    min-height: 50vh;
+    background-color: rgb(231, 67, 67);
+  }
+
+  .left-heading{
+    left: -52px;
+    font-size: 28px;
+    color: rgb(43, 41, 41);
+  }
+  
+  
+  .inside-heading{
+    margin-top: 45px;
+    font-size: 28px;
+  }
+
+  .welcome-paragraph{
+    font-size: 12px;
+    margin-left: 7px;
+  }
+  
+  .about-me-content-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .my-image-two{
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .about-me-paragraph{
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .sign{
+    width: 200px;
+    font-size: 12px;
+    font-weight: bold;
+    top: 80%;
+  }
+  
+}
+
+@media screen and (max-width: 789px) {
+    
+  .inside-heading{
+    margin-top: 35px;
+    font-size: 23px;
+  }
+
+  .my-image-two{
+    width: 110px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .about-me-paragraph{
+    font-size: 9px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .sign{
+    width: 200px;
+    font-size: 9px;
+    font-weight: bold;
+    top: 78%;
+  }
+  
+
+}
+
+
+@media screen and (max-width: 509px) {
+
+  .content-about-me{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .format-section{
+    position: relative;
+    background-color: rgb(230, 228, 228);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -999;
+    font-family: 'Bungee Inline', cursive;
+  }
+  
+  .dots{
+    position: relative;
+    margin-top: 20px;
+    background-color: rgb(172, 172, 171);
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .dots-display{
+    display: flex;
+    float: left;
+    background-color: rgb(92, 88, 88);
+    padding: 15px;
+  }
+  
+  .red-dot{
+    background-color: red;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+  }
+  
+  .yellow-dot{
+    background-color: rgb(205, 205, 61);
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+  }
+  
+  .green-dot{
+    background-color: green;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+  }
+  
+  
+  .sign{
+    position: absolute;
+    width: 200px;
+    top: 83%;
+    z-index: 1;
+    left: -120px;
+    transform: rotate(-90deg);
+  }
+  
+  .my-image{
+    opacity: 0.9;
+    width: 100%;
+  }
+  
+  .content-context{
+    position: relative;
+  }
+  
+  .left-heading{
+    position: absolute;
+    left: 40%;
+    font-size: 25px;
+    color: rgb(43, 41, 41);
+  }
+  
+  
+  .inside-heading{
+    margin-top: 25px;
+    margin-left: 35%;
+    color: rgb(43, 41, 41);
+    font-size: 17px;
+  }
+  
+  .welcome-paragraph{
+    font-size: 10px;
+    color: rgb(58, 58, 58);
+    margin-top: 10px;
+    margin-left: 35px;
+  }
+  
+  
+  .section-two-about-me{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-me-content-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .my-image-two{
+    width: 80%;
+    border-radius: 5px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me-content-two{
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .scl-media{
+    position: absolute;
+    bottom: 0;
+    left: -2%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  
+  .scl-item{
+    margin-top: 25px;
+    cursor: alias;
+    cursor: pointer;
+  }
+  
+  
+  .facebook, .insstagram{
+    color: rgb(18, 17, 17);
+    width: 5px;
+    cursor: pointer;
+  }
+}
