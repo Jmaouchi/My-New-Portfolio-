@@ -83,8 +83,8 @@
 
   .nav-menu.active{
     background-color: rgb(57, 55, 55);
-    border-radius: 50%;
-    width: 20%;
+    border-radius: 70%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,6 +146,13 @@
   button{
     display: none;
   }
+}
+
+.jugurta-logo{
+  color: #c21717;
+  padding: 2px;
+  border-radius: 15px;
+  font-size: 12px;
 }
 
 

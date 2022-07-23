@@ -121,6 +121,7 @@
 
 .heading-lets-talk:hover, .heading-add-review:hover{
   background-color: rgb(250, 244, 244);
+  color: black;
 }
 
 .color{
