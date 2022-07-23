@@ -1,0 +1,486 @@
+.contact-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+.left-part{
+  position: relative;
+  min-height: 50vh;
+  color: rgb(190, 186, 186);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-part{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(190, 186, 186);
+  position: relative;
+  min-height: 50vh;
+  z-index: 1;
+}
+
+.right-part::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgb(73, 63, 63);
+  opacity: 30%;  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+.back{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.heading-happiness{
+  color: white;
+  position: absolute;
+  font-size: 95px;
+  right: -210px;
+  top: 28%;
+}
+
+.paragraph-left-part{
+  color: white;
+  position: absolute;
+  top: 40%;
+  right: -180px;
+}
+
+
+
+.fa-circle-play{
+  color:rgba(100, 14, 14, 0.962);
+  position: absolute;
+  top: 45%;
+  left: -50px;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.fa-circle-play:hover{
+  color: rgb(4, 4, 4);
+}
+
+.fa-circle-play:active{
+  color: rgb(72, 71, 71);
+}
+
+.paragraph-left-part-projects{
+  position: absolute;
+  top: 57%;
+  right: -105px;
+  font-size: 20px;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.heading-lets-talk{
+  position: absolute;
+  top: 85%;
+  left: -220px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 35px 10px 35px;
+  border: 1px solid white;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.heading-add-review{
+  position: absolute;
+  top: 85%;
+  left: 15px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 35px 10px 35px;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.heading-lets-talk:hover, .heading-add-review:hover{
+  background-color: rgb(250, 244, 244);
+}
+
+.color{
+  color: rgb(119, 117, 117);
+}
+
+.scl-media-contact{
+  position: relative;
+}
+
+.scl-media-contact{
+  position: absolute;
+  left: 2px;
+  margin: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.facebook-contact, .instagram-contact, .linkedin-contact, .github-contact{
+  list-style: none;
+  color: gray;
+  margin: 30px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.facebook-contact:hover, .instagram-contact:hover, .linkedin-contact:hover, .github-contact:hover{
+  color:rgb(253, 250, 250);
+}
+
+
+.fa-backward{
+  margin-right: 10px;
+  margin-top: 5px;
+  color: rgb(166, 157, 157);
+  font-size: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.contact-page{
+  background: url('../../images/pexels-photo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.side-paragraph{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom:20%;
+  right:-50px;
+  transform: rotate(-90deg);
+}
+
+.noramohand{
+  background-color: rgb(244, 10, 10);
+  width: 100px;
+  height: 1px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1540px){
+
+  .heading-happiness{
+    font-size: 80px;
+    right: -175px;
+    top: 27%;
+  }
+  
+
+  .fa-circle-play{
+    top: 45%;
+    left: -40px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+
+  .paragraph-left-part{
+    color: white;
+    position: absolute;
+    top: 41%;
+    right: -165px;
+    font-size: 14px;
+  }
+
+  .paragraph-left-part-projects{
+    position: absolute;
+    top: 57%;
+    right: -90px;
+    font-size: 16px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  .heading-lets-talk{
+    font-size: 15px;
+  }
+  
+  .heading-add-review{
+    position: absolute;
+    top: 85%;
+    left: 55px;
+    font-size: 15px;
+  }
+
+  .facebook-contact, .instagram-contact, .linkedin-contact, .github-contact{
+    font-size: 17px;
+  }
+
+  .side-paragraph{
+    font-size: 12px;
+  }
+  
+}
+
+@media screen and (max-width: 912px){
+
+  .heading-happiness{
+    font-size: 70px;
+    right: -165px;
+    top: 34%;
+  }
+  
+
+  .fa-circle-play{
+    top: 45%;
+    left: -45px;
+    font-size: 90px;
+    cursor: pointer;
+  }
+
+  .paragraph-left-part{
+    top: 41%;
+    right: -165px;
+    font-size: 14px;
+  }
+
+  .paragraph-left-part-projects{
+    top: 53%;
+    right: -90px;
+    font-size: 16px;
+  }
+
+  .heading-lets-talk{
+    font-size: 25px;
+    left: -300px;
+  }
+  
+  .heading-add-review{
+    position: absolute;
+    top: 85%;
+    left: 55px;
+    font-size: 25px;
+  }
+
+  .facebook-contact, .instagram-contact, .linkedin-contact, .github-contact{
+    font-size: 20px;
+  }
+
+  .side-paragraph{
+    font-size: 13px;
+  }
+  
+}
+
+
+@media screen and (max-width: 786px){
+
+  .heading-happiness{
+    font-size: 65px;
+    right: -140px;
+    top: 36%;
+  }
+  
+
+  .fa-circle-play{
+    top: 55%;
+    left: -45px;
+    font-size: 90px;
+    cursor: pointer;
+  }
+
+  .paragraph-left-part{
+    top: 47%;
+    right: -125px;
+    font-size: 11px;
+  }
+
+  .paragraph-left-part-projects{
+    top: 69%;
+    right: -75px;
+    font-size: 13px;
+  }
+
+  .heading-lets-talk{
+    font-size: 12px;
+    top: 85%;
+    left: -200px;
+  }
+  
+  .heading-add-review{
+    position: absolute;
+    top: 85%;
+    left: 45px;
+    font-size: 12px;
+  }
+
+  .facebook-contact, .instagram-contact, .linkedin-contact, .github-contact{
+    font-size: 12px;
+  }
+
+  .side-paragraph{
+    font-size: 10px;
+  }
+  
+
+  .fa-backward{
+    font-size: 20px;
+  }
+
+}
+  @media screen and (max-width: 556px){
+    .heading-happiness{
+      font-size: 45px;
+      right: -105px;
+      top: 36%;
+    }
+  
+    .paragraph-left-part{
+      top: 43%;
+      right: -100px;
+      font-size: 7px;
+    }
+  
+    .fa-circle-play{
+      top: 47%;
+      left: -35px;
+      font-size: 70px;
+      cursor: pointer;
+    }
+
+    .paragraph-left-part-projects{
+      top: 56%;
+      right: -35px;
+      font-size: 6px;
+    }
+  
+
+    .heading-lets-talk{
+      font-size: 7px;
+      top: 85%;
+      left: -150px;
+    }
+    
+    .heading-add-review{
+      position: absolute;
+      top: 85%;
+      left: 30px;
+      font-size: 7px;
+    }
+  
+    .facebook-contact, .instagram-contact, .linkedin-contact, .github-contact{
+      font-size: 9px;
+      margin-left: -10px;
+    }
+  
+    .side-paragraph{
+      font-size: 5px;
+    }
+    
+  
+    .fa-backward{
+      font-size: 20px;
+    }
+
+    .noramohand{
+      width: 80px;
+      height: 1px;
+      margin-left: 20px;
+    }
+
+    .fa-backward{
+      margin-right: 10px;
+      margin-top: 5px;
+      color: rgb(166, 157, 157);
+      font-size: 20px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  
+  }
+
+  @media screen and (max-width: 386px){
+    .heading-happiness{
+      font-size: 35px;
+      right: -78px;
+      top: 38%;
+    }
+  
+    .paragraph-left-part{
+      top: 45%;
+      right: -50px;
+      font-size: 5px;
+    }
+  
+    .fa-circle-play{
+      top: 49%;
+      left: -25px;
+      font-size: 50px;
+    }
+
+    .paragraph-left-part-projects{
+      top: 58%;
+      right: -25px;
+      font-size: 5px;
+    }
+  
+
+    .heading-lets-talk{
+      font-size: 5px;
+      top: 85%;
+      left: -120px;
+    }
+    
+    .heading-add-review{
+      position: absolute;
+      top: 85%;
+      left: 15px;
+      font-size: 5px;
+    }
+  
+    .facebook-contact, .instagram-contact, .linkedin-contact, .github-contact{
+      font-size: 7px;
+      margin-left: -10px;
+    }
+  
+    .side-paragraph{
+      font-size: 4px;
+    }
+    
+    .noramohand{
+      width: 80px;
+      height: 1px;
+      margin-left: 20px;
+    }
+
+    .fa-backward{
+      margin-right: 10px;
+      margin-top: 5px;
+      color: rgb(166, 157, 157);
+      font-size: 20px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  
+  }
+
