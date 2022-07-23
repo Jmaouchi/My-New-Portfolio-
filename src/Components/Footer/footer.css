@@ -1,0 +1,65 @@
+.footer{
+  background:rgb(33, 31, 31);
+  color: rgb(148, 143, 143);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer-logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-items{
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+.log-items:hover{
+  color: white;
+}
+
+.log-items:active{
+  color:black;
+}
+
+.footer-author{
+  font-size: 13px;
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+.facebook, .instagram, .linkedin, .github{
+  color: rgb(176, 174, 174);
+}
+
+
+
+@media screen and (max-width: 509px) {
+
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+    
+  .small-image-p-tag{
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+
+  .footer-author{
+    font-size: 5px;
+  }
+
+  .log-items{
+    margin-left: 15px;
+    cursor: pointer;
+  }
+}
