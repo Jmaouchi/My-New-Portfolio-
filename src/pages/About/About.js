@@ -17,10 +17,10 @@ function About() {
 
           {/* social media      */}
           <div className='scl-media-contact'>
-            <Link to={'https://www.facebook.com/djigo.mat.1'}><li className='facebook-contact'><i className="fab fa-facebook"></i></li></Link>
-            <Link to={'https://www.instagram.com/'}><li className='instagram-contact'><i className="fab fa-instagram"></i></li></Link>
-            <Link to={'https://www.linkedin.com/in/jugurta-maouchi-840b08227/'}><li className='linkedin-contact'><i className="fab fa-linkedin"></i></li></Link>
-            <Link to={'https://github.com/Jmaouchi'}><li className='github-contact'><i className="fab fa-github"></i></li></Link>
+            <a href='https://www.facebook.com/djigo.mat.1'><li className='facebook-contact'><i className="fab fa-facebook"></i></li></a>
+            <a href='https://www.instagram.com/'><li className='instagram-contact'><i className="fab fa-instagram"></i></li></a>
+            <a href='https://www.linkedin.com/in/jugurta-maouchi-840b08227/'><li className='linkedin-contact'><i className="fab fa-linkedin"></i></li></a>
+            <a href='https://github.com/Jmaouchi'><li className='github-contact'><i className="fab fa-github"></i></li></a>
           </div>
         </div>
 

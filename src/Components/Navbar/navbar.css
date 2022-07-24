@@ -6,10 +6,19 @@
   align-items: center;
   justify-content: space-between;
   font-size: 1.2rem;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+.logo-path{
+  text-decoration: none;
 }
 
 .navbar-logo{
   color: rgb(192, 185, 185);
+  text-decoration: none;
+  border: none;
+  list-style: none;
   justify-self: start;
   margin-left: 200px;
   cursor: pointer;
@@ -115,6 +124,7 @@
 
   .navbar-log{
     position: absolute;
+    text-decoration: none;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
@@ -239,6 +249,7 @@
   }
 
   .navbar-logo{
+    border: none;
     margin-left: 20px;
     font-size: 15px;
   }

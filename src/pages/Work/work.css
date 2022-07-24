@@ -1,0 +1,124 @@
+.hero-image{
+  position: relative;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  z-index: 1;
+}
+
+.hero-section{
+  background-image:url('../../images/Pihladelphia.jpeg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30%;
+  min-height: 30vh;
+  background-color: rgb(65, 63, 63);
+  top: 60%;
+  border-radius: 5px;
+}
+
+.hero-section::before{
+  content: "";
+  height: 40%;
+  width: 120px;
+  background-color: rgb(154, 6, 6);  
+  position: absolute;
+  top: -5px;
+  left: -7px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+.hero-section::after{
+  content: "";
+  height: 40%;
+  width: 120px;
+  background-color: rgb(154, 6, 6);  
+  position: absolute;
+  top: 173px;
+  left: 457px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+
+.side{
+
+}
+
+.left-side{
+
+}
+
+
+.right-side{
+  background-color: black;
+  color: white;
+}
+
+.hero-content-two{
+  min-height: 20vh;
+  background-color: rgb(189, 173, 152);
+  color: white;
+}
+
+.myWork{
+  background-color: rgb(189, 173, 152);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myWork-content{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myWork-heading{
+  font-size: 32px;
+}
+
+.myWork-paragraph{
+  font-size: 16px;
+}
+
+.myWork-grid-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  gap: 4px;
+  min-height: 100vh;
+  padding: 5px;
+}
+
+.item{
+  padding: 40px;
+  border: 2px solid black;
+}
+
+
+.item-one{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../images/coffeeWebsite.png');
+  background-size: cover;
+}
+
+.item-two{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../images/mern.png');
+  background-size: cover;
+}
