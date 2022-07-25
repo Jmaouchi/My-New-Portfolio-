@@ -23,7 +23,6 @@
   grid-template-columns: 1fr 1fr;
   width: 30%;
   min-height: 30vh;
-  background-color: rgb(65, 63, 63);
   top: 60%;
   border-radius: 5px;
 }
@@ -40,18 +39,6 @@
   z-index: -1;
 }
 
-.hero-section::after{
-  content: "";
-  height: 37%;
-  width: 120px;
-  background-color: rgb(154, 6, 6);  
-  position: absolute;
-  top: 173px;
-  left: 457px;
-  border-radius: var(--border-radius);
-  z-index: -1;
-}
-
 .right-side{
   background-color: black;
   color: white;
@@ -59,12 +46,12 @@
 
 .hero-content-two{
   min-height: 20vh;
-  background-color: rgb(60, 59, 58);
+  background: rgb(33, 31, 31);
   color: white;
 }
 
 .work-area{
-  background-color: rgb(60, 59, 58);
+  background: rgb(33, 31, 31);
 }
 
 .work-area-context{
@@ -119,7 +106,7 @@
 }
 
 .portfolio-items-wrapper {
-  background-color: rgb(60, 59, 58);
+  background: rgb(8, 8, 8);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -290,10 +277,27 @@
 
 
 @media screen and (max-width: 556px){
+  .hero-section{
+    width: 60%;
+    min-height: 20vh;
+    top: 83%;
+  }
+
+  .hero-section::before{
+    border-radius: 5px;
+  }
 
   .portfolio-items-wrapper {
-    background-color: rgb(60, 59, 58);
+    background-color: rgb(13, 13, 13);
     display: grid;
     grid-template-columns: 1fr;
   }
-}
+
+  .work-area-content h2{
+   font-size: 35px; 
+  }
+
+  .typewrite{
+    font-size: 15px;
+  }
+} 
