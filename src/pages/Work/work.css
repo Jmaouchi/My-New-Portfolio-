@@ -111,6 +111,7 @@
 .portfolio-item-wrapper {
   position: relative;
   margin: 15px;
+  cursor: pointer;
 }
 
 .portfolio-item-wrapper:hover .item{
@@ -220,6 +221,29 @@
   filter: brightness(70%);
 }
 
+.eleven{
+  background: url('../../images/todo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(70%);
+}
+
+.twelve{
+  background: url('../../images/thoughts.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(70%);
+}
+
+.thirteen{
+  background: url('../../images/thoughts.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(70%);
+}
 
 .img-text-wrapper {
   position: absolute;

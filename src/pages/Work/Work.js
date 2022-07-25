@@ -58,7 +58,7 @@ function Work() {
                   <i class="fa-brands fa-react"></i>
               </div>
               <div className="subtitle">
-                <h2>Weather Dashboard</h2>
+                <h2>Pizza Hunt</h2>
                 <p>an app that i've build on my own 2022,
                   this app will give access to a daily and weekly wether status in your curent area
                 </p>
@@ -78,7 +78,7 @@ function Work() {
               </div>
 
               <div className="subtitle">
-                <h2>Weather Dashboard</h2>
+                <h2>Coffee Shop</h2>
                 <p>an app that i've build on my own 2022,
                   this app will give access to a daily and weekly wether status in your curent area
                 </p>
@@ -113,7 +113,7 @@ function Work() {
               </div>
 
               <div className="subtitle">
-                <h2>Motor Bike Labs</h2>
+                <h2>Track Your Budget</h2>
                 <p>A PWA application that ive built,
                   this app will give access to track your expenses, you also can download this app in your device.
                 </p>
@@ -132,7 +132,7 @@ function Work() {
               </div>
 
               <div className="subtitle">
-                <h2>Weather Dashboard</h2>
+                <h2>To Do List</h2>
                 <p>an app that i've build on my own 2022,
                   this app will give access to a daily and weekly wether status in your curent area
                 </p>
@@ -151,7 +151,7 @@ function Work() {
               </div>
 
               <div className="subtitle">
-                <h2>Weather Dashboard</h2>
+                <h2>Task List</h2>
                 <p>an app that i've build on my own 2022,
                   this app will give access to a daily and weekly wether status in your curent area
                 </p>
@@ -200,6 +200,44 @@ function Work() {
           {/* ten */}
           <div className="portfolio-item-wrapper">
             <div className="portfolio-img-background ten item"></div>
+            <div className="img-text-wrapper">
+            <div className="logo-wrapper">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3"></i>
+                <i class="fa-brands fa-js"></i>
+              </div>
+
+              <div className="subtitle">
+                <h2>Weather Dashboard</h2>
+                <p>an app that i've build on my own 2022,
+                  this app will give access to a daily and weekly wether status in your curent area
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="portfolio-item-wrapper">
+            <div className="portfolio-img-background eleven item"></div>
+            <div className="img-text-wrapper">
+            <div className="logo-wrapper">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3"></i>
+                <i class="fa-brands fa-js"></i>
+              </div>
+
+              <div className="subtitle">
+                <h2>Weather Dashboard</h2>
+                <p>an app that i've build on my own 2022,
+                  this app will give access to a daily and weekly wether status in your curent area
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="portfolio-item-wrapper">
+            <div className="portfolio-img-background twelve item"></div>
             <div className="img-text-wrapper">
             <div className="logo-wrapper">
                 <i class="fa-brands fa-html5"></i>
