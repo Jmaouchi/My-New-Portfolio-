@@ -278,3 +278,22 @@
   margin: 2px;
   color: rgb(191, 193, 195);
 }
+
+@media screen and (max-width: 756px){
+
+  .portfolio-items-wrapper {
+    background-color: rgb(60, 59, 58);
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media screen and (max-width: 556px){
+
+  .portfolio-items-wrapper {
+    background-color: rgb(60, 59, 58);
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
