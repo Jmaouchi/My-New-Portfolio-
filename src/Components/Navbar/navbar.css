@@ -1,4 +1,9 @@
+.main{
+  position: relative;
+}
+
 .NavbarItems{
+  position: absolute;
   background:rgb(33, 31, 31);
   color: rgb(148, 143, 143);
   height: 80px;
@@ -237,21 +242,21 @@
 
   .nav-menu.active{
     background-color: rgb(57, 55, 55);
-    border-radius: 30%;
-    width: 15%;
+    border-radius: 10%;
+    width: 35%;
     height: 120px;
   }
 
   .nav-links {
     padding: .2rem;
-    width: 40px;
-    font-size: 5px;
+    width: 70px;
+    font-size: 8px;
   }
 
   .navbar-logo{
     border: none;
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 19px;
   }
 
   .jugurta-logo{
@@ -271,7 +276,7 @@
 
 
   .fa-bars, .fa-times{
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .facebook, .instagram, .linkedin, .github{

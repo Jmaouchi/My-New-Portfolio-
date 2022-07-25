@@ -144,13 +144,6 @@
 }
 
 
-.facebook, .insstagram{
-  color: rgb(18, 17, 17);
-  width: 5px;
-  cursor: pointer;
-}
-
-
 
 @media screen and (max-width: 1540px) {
 
@@ -422,9 +415,10 @@
   .sign{
     position: absolute;
     width: 200px;
-    top: 83%;
+    font-size: 8px;
+    top: 88%;
     z-index: 1;
-    left: -120px;
+    left: -110px;
     transform: rotate(-90deg);
   }
   
@@ -503,11 +497,6 @@
     cursor: alias;
     cursor: pointer;
   }
+
   
-  
-  .facebook, .insstagram{
-    color: rgb(18, 17, 17);
-    width: 5px;
-    cursor: pointer;
-  }
 }

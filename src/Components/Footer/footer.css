@@ -37,6 +37,7 @@ ul{
 
 .facebook, .instagram, .linkedin, .github{
   color: rgb(176, 174, 174);
+
 }
 
 
@@ -50,16 +51,22 @@ ul{
   }
     
   .small-image-p-tag{
-    font-size: 8px;
+    font-size: 6px;
     margin-bottom: 10px;
   }
 
   .footer-author{
-    font-size: 5px;
+    font-size: 10px;
   }
 
   .log-items{
     margin-left: 15px;
     cursor: pointer;
   }
+
+  
+.facebook, .instagram, .linkedin, .github{
+  font-size: 10px;
+}
+
 }

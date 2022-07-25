@@ -4,6 +4,7 @@ import Footer from '../Footer'
 import myImage from '../../images/me-playing-2.jpg'
 import myImageTwo from '../../images/black-white.png'
 import AnimatePage from '../Animate'
+import Typewriter from 'typewriter-effect'
 // import ModelOV from './ModelOV'
 
 function Me() {
@@ -25,7 +26,14 @@ function Me() {
             <div className='content-context'>
               <h1 className='left-heading'>Hello,</h1>
               <h2 className='inside-heading'>I am Jugurta</h2>
-              <p className='welcome-paragraph'>Welcome to my protfolio. my life is nothing without coding!</p>
+        
+              <p className='welcome-paragraph'>
+              <Typewriter onInit={(typewriter) =>{
+                  typewriter.typeString('Welcome to my protfolio. my life is nothing without coding!').pauseFor(1000).deleteAll().start()
+                  typewriter.typeString('I would love to see some feedbacks from you').pauseFor(1000).deleteAll().start()
+                  typewriter.typeString('Welcome to my protfolio. my life is nothing without coding!').start()
+                }}/>
+              </p>
 
               <div className='section-two-about-me'>
                 <div className='about-me-content-one'>
