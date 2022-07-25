@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../../Components/Navbar/Nav'
 import './work.css'
+import image from '../../images/me.png'
 
 function Work() {
   return (
@@ -15,37 +16,71 @@ function Work() {
         </section>
         <div className='hero-content-two'>
         </div>
+        <div className="portfolio-items-wrapper">
+          <div className="portfolio-item-wrapper">
+            <div className="portfolio-img-background one"></div>
+            <div className="img-text-wrapper">
+              <div className="logo-wrapper">
+                <img src={image} alt=""></img>
+              </div>
 
-        <div className='myWork'>
-          <div className='myWork-content'> 
-            <h4 className='myWork-heading'>My Design Work</h4>
-            <p className='myWork-paragraph'>Checkout some of my recent work</p>
+              <div className="subtitle">Coding bootcamp and learning management system.</div>
+            </div>
           </div>
-          
-          <div className='myWork-grid-items'>
-              <div className='item-one item'>
-                
+
+          <div className="portfolio-item-wrapper">
+            <div className="portfolio-img-background two"></div>
+            <div className="img-text-wrapper">
+              <div className="logo-wrapper">
+                <img src={image} alt=""></img>
               </div>
 
-              <div className='item-two item'>
+              <div className="subtitle">Keep track of what you learn every day.</div>
+            </div>
+          </div>
 
+          <div className="portfolio-item-wrapper">
+            <div className="portfolio-img-background three"></div>
+            <div className="img-text-wrapper">
+              <div className="logo-wrapper">
+                <img src={image} alt=""></img>
               </div>
 
-              <div className='item-three item'>
+              <div className="subtitle">Coding bootcamp and learning management system.</div>
+            </div>
+          </div>
 
+          <div className="portfolio-item-wrapper">
+            <div className="portfolio-img-background four"></div>
+            <div className="img-text-wrapper">
+              <div className="logo-wrapper">
+                <img src={image} alt=""></img>
               </div>
 
-              <div className='item-four item'>
+              <div className="subtitle">Coding bootcamp and learning management system.</div>
+            </div>
+          </div>
 
+          <div className="portfolio-item-wrapper">
+            <div className="portfolio-img-background five"></div>
+            <div className="img-text-wrapper">
+              <div className="logo-wrapper">
+                <img src={image} alt=""></img>
               </div>
 
-              <div className='item-five item'>
+              <div className="subtitle">Coding bootcamp and learning management system.</div>
+            </div>
+          </div>
 
+          <div className="portfolio-item-wrapper">
+            <div className="portfolio-img-background six"></div>
+            <div className="img-text-wrapper">
+              <div className="logo-wrapper">
+                <img src={image} alt=""></img>
               </div>
 
-              <div className='item-six item'>
-                
-                </div>
+              <div className="subtitle">I built the Quip Ecommerce platform, named a Top 25 Invention by Time Magazine in 2016.</div>
+            </div>
           </div>
         </div>
       </div>    

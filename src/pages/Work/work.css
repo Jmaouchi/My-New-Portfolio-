@@ -5,7 +5,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background: url('../../images/flo.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   z-index: 1;
 }
 
@@ -39,7 +42,7 @@
 
 .hero-section::after{
   content: "";
-  height: 40%;
+  height: 37%;
   width: 120px;
   background-color: rgb(154, 6, 6);  
   position: absolute;
@@ -49,16 +52,6 @@
   z-index: -1;
 }
 
-
-.side{
-
-}
-
-.left-side{
-
-}
-
-
 .right-side{
   background-color: black;
   color: white;
@@ -66,12 +59,12 @@
 
 .hero-content-two{
   min-height: 20vh;
-  background-color: rgb(189, 173, 152);
+  background-color: rgb(60, 59, 58);
   color: white;
 }
 
 .myWork{
-  background-color: rgb(189, 173, 152);
+  background-color: rgb(60, 59, 58);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,31 +87,84 @@
   font-size: 16px;
 }
 
-.myWork-grid-items{
+.portfolio-item-wrapper {
+  position: relative;
+  margin: 15px;
+}
+
+.portfolio-item-wrapper:hover .one{
+  opacity: 70%;
+}
+
+.portfolio-items-wrapper {
+  background-color: rgb(60, 59, 58);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 80%;
-  gap: 4px;
-  min-height: 100vh;
-  padding: 5px;
 }
 
-.item{
-  padding: 40px;
-  border: 2px solid black;
+.portfolio-img-background{
+  height: 350px;
+  width: 100%;
+  opacity: 20%;
 }
 
+.portfolio-img-background:hover{
+  opacity: 100%;
+}
 
-.item-one{
+.one{
+  background: url('../../images/weather.webp');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../../images/coffeeWebsite.png');
-  background-size: cover;
+  height: 350px;
+  width: 100%;
 }
 
-.item-two{
+.two{
+  background: url('../../images/black-white.png');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../../images/mern.png');
+}
+
+.three{
+  background: url('../../images/coffee.jpeg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.logo-wrapper img {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+}
+
+.image-blur {
+  transition: .1s;
+  filter: brightness(10%);
+}
+
+.img-text-wrapper:hover .subtitle {
+  color: rgb(178, 32, 32);
+  font-weight: 600;
 }
