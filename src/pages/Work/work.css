@@ -92,8 +92,8 @@
   margin: 15px;
 }
 
-.portfolio-item-wrapper:hover .one{
-  opacity: 70%;
+.portfolio-item-wrapper:hover .item{
+  filter: brightness(20%);
 }
 
 .portfolio-items-wrapper {
@@ -105,11 +105,11 @@
 .portfolio-img-background{
   height: 350px;
   width: 100%;
-  opacity: 20%;
+  filter: brightness(70%);
 }
 
 .portfolio-img-background:hover{
-  opacity: 100%;
+  filter: brightness(20%);
 }
 
 .one{
@@ -119,13 +119,16 @@
   background-repeat: no-repeat;
   height: 350px;
   width: 100%;
+  filter: brightness(50%);
 }
+
 
 .two{
   background: url('../../images/black-white.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: brightness(50%);
 }
 
 .three{
@@ -133,6 +136,31 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: brightness(50%);
+}
+
+.four{
+  background: url('../../images/motor.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+}
+
+.five{
+  background: url('../../images/budjet.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+}
+
+.six{
+  background: url('../../images/todo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(50%);
 }
 
 .img-text-wrapper {
@@ -159,12 +187,12 @@
   color: transparent;
 }
 
-.image-blur {
-  transition: .1s;
-  filter: brightness(10%);
+.img-text-wrapper:hover .subtitle {
+  color: rgb(191, 193, 195);
 }
 
-.img-text-wrapper:hover .subtitle {
-  color: rgb(178, 32, 32);
-  font-weight: 600;
+.fa-brands{
+  font-size: 50px;
+  margin: 2px;
+  color: rgb(191, 193, 195);
 }
