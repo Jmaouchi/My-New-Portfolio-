@@ -1,0 +1,45 @@
+.app{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+button.slick-arrow.slick-next::before{
+  color: rgb(8, 8, 8);
+}
+
+button.slick-arrow.slick-prev::before{
+  color: rgb(5, 5, 5);
+}
+
+.card{
+color: red;
+background-color: black;
+border-radius: 8px;
+color: white;
+}
+
+.card-top h1{
+  font-size: 1rem;
+  margin: 10px 10px;
+}
+
+.card-top > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list{
+  margin: 0 -10px;
+}
+
+
+.card-bottom{
+  margin: 10px 20px;
+
+}

@@ -2,6 +2,8 @@ import React from 'react'
 import Nav from '../../Components/Navbar/Nav'
 import './work.css'
 import Typewriter from 'typewriter-effect'
+import Carousel from '../../Components/Carousel';
+import { myWorkdata } from './workData';
 
 function Work() {
   return (
@@ -32,228 +34,24 @@ function Work() {
         {/* wrapper start */}
         <div className="portfolio-items-wrapper">
           {/* one */}
+          {myWorkdata.map((item) => (
           <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background one item"></div>
+            <div className="portfolio-img-background item"><img className='portfolio-img-background item' src={item.image} alt=""></img></div>
             <div className="img-text-wrapper">
               <div className="logo-wrapper">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
+                {item.techs.map((tech) => (
+                  <i className={tech}></i>
+                ))}
               </div>
               <div className="subtitle">
-                <h2>Weather Dashboard</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
+                <h2>{item.title}</h2>
+                <p>{item.text}</p>
               </div>
             </div>
-          </div>  
-
-          {/* Two */}
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background two item"></div>
-            <div className="img-text-wrapper">
-              <div className="logo-wrapper">
-                  <i class="fa-solid fa-database"></i>
-                  <i class="fa-brands fa-react"></i>
-              </div>
-              <div className="subtitle">
-                <h2>Pizza Hunt</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          {/* three */}
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background three item"></div>
-            <div className="img-text-wrapper">
-              <div className="logo-wrapper">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="fa-brands fa-bootstrap"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>Coffee Shop</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* four */}
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background four item"></div>
-            <div className="img-text-wrapper">
-              <div className="logo-wrapper">
-                  <i class="fa-solid fa-database"></i>
-                  <i class="fa-brands fa-react"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>Motor Bike Labs</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to many motorcycles and different brans, you can see infos of every motorcycle.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          {/* five */}
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background five item"></div>
-            <div className="img-text-wrapper">
-              <div className="logo-wrapper">
-                <i class="fa-solid fa-download"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>Track Your Budget</h2>
-                <p>A PWA application that ive built,
-                  this app will give access to track your expenses, you also can download this app in your device.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* six */}
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background six item"></div>
-            <div className="img-text-wrapper">
-            <div className="logo-wrapper">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>To Do List</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* seven */}
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background seven item"></div>
-            <div className="img-text-wrapper">
-            <div className="logo-wrapper">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>Task List</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* seven */}
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background eight item"></div>
-            <div className="img-text-wrapper">
-            <div className="logo-wrapper">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>Weather Dashboard</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* seven */}
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background nine item"></div>
-            <div className="img-text-wrapper">
-            <div className="logo-wrapper">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>Weather Dashboard</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          {/* ten */}
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background ten item"></div>
-            <div className="img-text-wrapper">
-            <div className="logo-wrapper">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>Weather Dashboard</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background eleven item"></div>
-            <div className="img-text-wrapper">
-            <div className="logo-wrapper">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>Weather Dashboard</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="portfolio-item-wrapper">
-            <div className="portfolio-img-background twelve item"></div>
-            <div className="img-text-wrapper">
-            <div className="logo-wrapper">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-              </div>
-
-              <div className="subtitle">
-                <h2>Weather Dashboard</h2>
-                <p>an app that i've build on my own 2022,
-                  this app will give access to a daily and weekly wether status in your curent area
-                </p>
-              </div>
-            </div>
-          </div>
+          </div> 
+          ))} 
         </div>
+        <Carousel />
       </div>    
     </div>
   )

@@ -5,13 +5,14 @@ import myImage from '../../images/me-playing-2.jpg'
 import myImageTwo from '../../images/black-white.png'
 import AnimatePage from '../Animate'
 import Typewriter from 'typewriter-effect'
+import Carousel from '../Carousel'
 // import ModelOV from './ModelOV'
 
 function Me() {
   return (
  
     <div>
-            <AnimatePage>
+      <AnimatePage>
       <section className='format-section'>
 
         <div className='dots'>

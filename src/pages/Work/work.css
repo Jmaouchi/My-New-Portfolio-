@@ -101,12 +101,16 @@
   cursor: pointer;
 }
 
+.portfolio-item-wrapper .item{
+  border: 1px solid rgb(112, 109, 109);
+}
+
 .portfolio-item-wrapper:hover .item{
   filter: brightness(20%);
 }
 
 .portfolio-items-wrapper {
-  background: rgb(8, 8, 8);
+  background: rgb(13, 13, 13);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -299,5 +303,11 @@
 
   .typewrite{
     font-size: 15px;
+  }
+
+  .portfolio-img-background{
+    height: 250px;
+    width: 100%;
+    filter: brightness(70%);
   }
 } 
