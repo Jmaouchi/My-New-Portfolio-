@@ -48,11 +48,10 @@ function Carousel() {
         <div className='card'>
           <div className='card-top'>
             <img className='image-carousel' src={item.linkImage} alt={item.title} />
-            <h1>{item.title}</h1>
+            <h1 className='heading-slider'>{item.title}</h1>
           </div>
           <div className='card-bottom'>
-            <h3>{item.price}</h3>
-            <p>{item.category}</p>
+            <p className='paragraph-slider'>{item.price}</p>
           </div>
       </div>
       ))}

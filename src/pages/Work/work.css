@@ -39,25 +39,35 @@
   z-index: -1;
 }
 
-.right-side{
-  background-color: black;
-  color: white;
-}
 
 .hero-content-two{
+  position: relative;
   min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: rgb(33, 31, 31);
-  color: white;
+}
+
+.grid-bottom-line{
+  position: relative;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(33, 31, 31);
+}
+
+.line{
+  position: absolute;
+  bottom: -20px;
+  background-color: rgb(140, 134, 134);
+  padding: 0.2px;
+  width: 300px;
 }
 
 .work-area{
   background: rgb(33, 31, 31);
-}
-
-.work-area-context{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .work-area-content{
@@ -71,6 +81,7 @@
 
 .typewrite{
   font-size: 25px;
+  color: white;
   margin-top: 15px;
 }
 
@@ -168,7 +179,7 @@
   align-items: center;
   justify-content: center;
   padding: 45px;
-  background-color:rgb(112, 109, 109);
+  background: rgb(33, 31, 31);
 }
 
 .span{

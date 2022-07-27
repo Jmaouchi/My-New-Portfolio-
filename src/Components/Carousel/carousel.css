@@ -16,13 +16,9 @@ button.slick-arrow.slick-prev::before{
 
 .card{
 background-color: black;
-border-radius: 8px;
+border: 1px solid rgb(137, 134, 134);
+border-bottom-right-radius: 55px;
 color: white;
-}
-
-.card-top h1{
-  font-size: 1rem;
-  margin: 10px 10px;
 }
 
 .card-top > img{
@@ -41,9 +37,23 @@ color: white;
 
 
 .card-bottom{
-  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  padding: 15px;
 }
 
-.image-carousel{
-  
+.heading-slider{
+  color: rgb(95, 92, 92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin: 10px 10px;
+}
+
+.paragraph-slider{
+  font-size: 15px;
+  color:  rgb(79, 79, 138);
 }
