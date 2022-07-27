@@ -57,12 +57,13 @@ export const myWorkdata = [
     title:"note taker",
     text:"This app is built using HTML, CSS, JS. An app that allow you to save your notes for later use case, and delete them whenever you want",
     techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
-    image:"https://i.postimg.cc/C5dT9HQY/note.jpg"
+    image:"https://i.postimg.cc/C5dT9HQY/note.jpg",
+    path:'https://whispering-crag-45136.herokuapp.com/'
   },
   {
     id:9,
     title:"Add Thought",
-    text:"",
+    text:"This app is built using HTML, CSS, JS and SQL for database",
     techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
     image:"https://i.postimg.cc/2SQJcKSh/thoughts.webp"
   },
@@ -85,8 +86,23 @@ export const myWorkdata = [
     title:"Book Search",
     text:"This is a book search site that will allow you serch some books by name, and save them for later",
     techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
+    image:"https://i.postimg.cc/qRR8WQQx/book.jpg",
+    path:"https://whispering-earth-59194.herokuapp.com/"
+  },
+  {
+    id:12,
+    title:"Quize",
+    text:"This is a book search site that will allow you serch some books by name, and save them for later",
+    techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
+    image:"https://i.postimg.cc/d0D2x45m/question.jpg",
+    path:"https://jmaouchi.github.io/Question-and-Answer-Game-/quiz.html"
+  },
+  {
+    id:13,
+    title:"Book Search",
+    text:"This is a book search site that will allow you serch some books by name, and save them for later",
+    techs: ['fa-brands fa-html5', 'fa-brands fa-css3', 'fa-brands fa-js'],
     image:"https://i.postimg.cc/vmSpf6mN/drive.jpg",
     path:"https://whispering-earth-59194.herokuapp.com/"
   },
-
 ]

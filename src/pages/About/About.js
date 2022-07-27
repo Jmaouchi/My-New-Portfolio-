@@ -5,7 +5,6 @@ import AnimatePage from '../../Components/animateB'
 function About() {
   return (
     <div className='contact-page'>
-      <AnimatePage>
       <div className='contact-section'>
         <div className='left-part'>
           <div className='back'>
@@ -34,7 +33,6 @@ function About() {
           </div>
         </div>  
       </div>
-      </AnimatePage>
     </div>   
   )
 }

@@ -28,7 +28,7 @@ export const data = [
     id:3,
     title:"JQuery",
     price:'Scripting Language',
-    linkImage:'https://i.postimg.cc/6QC3qKPj/js.jpg'
+    linkImage:'https://i.postimg.cc/kGt9Y3S3/jq.jpg'
   },
   {
     id:4,
@@ -59,7 +59,7 @@ export const data = [
     id:8,
     title:"Express.js",
     price:'$55',
-    linkImage:'https://i.postimg.cc/fbDCqzYm/npm.webp'
+    linkImage:'https://i.postimg.cc/yYvnpgVK/express.jpg'
   },
   {
     id:9,
@@ -71,6 +71,6 @@ export const data = [
     id:10,
     title:"MongoDB database",
     price:'$55',
-    linkImage:'https://i.postimg.cc/fbDCqzYm/npm.webp'
+    linkImage:'https://i.postimg.cc/rpcmdmrd/images.png'
   }
 ]
