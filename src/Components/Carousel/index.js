@@ -47,7 +47,7 @@ function Carousel() {
       {data.map((item) => (
         <div className='card'>
           <div className='card-top'>
-            <img src={item.linkImage} alt={item.title} />
+            <img className='image-carousel' src={item.linkImage} alt={item.title} />
             <h1>{item.title}</h1>
           </div>
           <div className='card-bottom'>

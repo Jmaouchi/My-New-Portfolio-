@@ -60,10 +60,6 @@
   justify-content: center;
 }
 
-.work-area span{
-  color: rgb(183, 179, 179);
-}
-
 .work-area-content{
   display: flex;
   flex-direction: column;
@@ -125,115 +121,10 @@
   filter: brightness(20%);
 }
 
-.one{
-  background: url('../../images/weather.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 350px;
+.carousel-section{
+  background: rgb(13, 13, 13);
   width: 100%;
-  filter: brightness(50%);
-}
-
-
-.two{
-  background: url('../../images/pizza.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-.three{
-  background: url('../../images/coffee.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-.four{
-  background: url('../../images/motor.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-
-.five{
-  background: url('../../images/budjet.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(35%);
-}
-
-.six{
-  background: url('../../images/todo.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-
-.seven{
-  background: url('../../images/task-master.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-.eight{
-  background: url('../../images/note.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-
-.nine{
-  background: url('../../images/schedule.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-
-.ten{
-  background: url('../../images/thoughts.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(70%);
-}
-
-.eleven{
-  background: url('../../images/todo.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(70%);
-}
-
-.twelve{
-  background: url('../../images/thoughts.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(70%);
-}
-
-.thirteen{
-  background: url('../../images/thoughts.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(70%);
+  padding-bottom: 25px;
 }
 
 .img-text-wrapper {
@@ -258,6 +149,7 @@
 .img-text-wrapper .subtitle {
   transition: 1s;
   color: transparent;
+  margin-top: 15px;
 }
 
 .img-text-wrapper:hover .subtitle {
@@ -266,8 +158,25 @@
 
 .fa-brands, .fa-solid {
   font-size: 50px;
-  margin: 2px;
+  margin-left: 5px;
   color: rgb(191, 193, 195);
+}
+
+.something{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 45px;
+  background-color:rgb(112, 109, 109);
+}
+
+.span{
+  color: rgb(183, 179, 179);
+}
+
+.section-heading{
+  font-size: 45px; 
 }
 
 @media screen and (max-width: 756px){
@@ -298,7 +207,7 @@
   }
 
   .work-area-content h2{
-   font-size: 35px; 
+   font-size: 30px; 
   }
 
   .typewrite{
@@ -308,6 +217,19 @@
   .portfolio-img-background{
     height: 250px;
     width: 100%;
-    filter: brightness(70%);
+    filter: brightness(55%);
+  }
+
+  .fa-brands, .fa-solid {
+    font-size: 30px;
+    margin-left: 5px;
+    color: rgb(191, 193, 195);
+  }
+
+  .img-text-wrapper .subtitle {
+    transition: 1s;
+    font-size: 10px;
+    color: rgb(162, 157, 157);
+    margin-top: 2px;
   }
 } 

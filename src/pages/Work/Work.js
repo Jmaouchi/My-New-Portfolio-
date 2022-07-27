@@ -21,7 +21,7 @@ function Work() {
 
         <div className='work-area'>
           <div className='work-area-content'>
-            <h2><span>My</span>Work</h2>
+            <h2 className='section-heading'><span className='span'>My</span>Work</h2>
               <div className='typewrite'>
                 <Typewriter className="doit" onInit={(typewriter) =>{
                   typewriter.typeString('Please take your time and checkout my hard work').pauseFor(1000).deleteAll().start()
@@ -35,6 +35,7 @@ function Work() {
         <div className="portfolio-items-wrapper">
           {/* one */}
           {myWorkdata.map((item) => (
+          <a href={item.path}>
           <div className="portfolio-item-wrapper">
             <div className="portfolio-img-background item"><img className='portfolio-img-background item' src={item.image} alt=""></img></div>
             <div className="img-text-wrapper">
@@ -49,9 +50,22 @@ function Work() {
               </div>
             </div>
           </div> 
+          </a>
           ))} 
         </div>
-        <Carousel />
+        
+        <div className='something'>
+            <h2 className='section-heading'><span className='span'>My</span>Code</h2>
+              <div className='typewrite'>
+                <Typewriter onInit={(typewriter) =>{
+                  typewriter.typeString('Please take your time and checkout my hard work').pauseFor(1000).deleteAll().start()
+                  typewriter.typeString('I apreciate it').pauseFor(1000).start()
+                }}/>
+              </div>
+          </div>
+        <div className='carousel-section'>
+          <Carousel /> 
+        </div>
       </div>    
     </div>
   )
