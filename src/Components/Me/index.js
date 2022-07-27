@@ -5,29 +5,23 @@ import myImage from '../../images/me-playing-2.jpg'
 import myImageTwo from '../../images/black-white.png'
 import AnimatePage from '../Animate'
 import Typewriter from 'typewriter-effect'
-import Carousel from '../Carousel'
-// import ModelOV from './ModelOV'
 
 function Me() {
   return (
- 
     <div>
       <AnimatePage>
       <section className='format-section'>
-
         <div className='dots'>
           <div className='dots-display'>
             <div className='dot red-dot'></div>
             <div className='dot yellow-dot'></div>
             <div className='dot green-dot'></div>
           </div>
-          <p className='sign'>BeOnToP</p>
           <div className='content-about-me'>
             <img className='my-image' src={myImage} alt='my own img playing guitar'></img>
             <div className='content-context'>
               <h1 className='left-heading'>Hello,</h1>
               <h2 className='inside-heading'>I am Jugurta</h2>
-        
               <p className='welcome-paragraph'>
               <Typewriter onInit={(typewriter) =>{
                   typewriter.typeString('Welcome to my protfolio. my life is nothing without coding!').pauseFor(1000).deleteAll().start()
@@ -35,7 +29,6 @@ function Me() {
                   typewriter.typeString('Welcome to my protfolio. my life is nothing without coding!').start()
                 }}/>
               </p>
-
               <div className='section-two-about-me'>
                 <div className='about-me-content-one'>
                   <p className='about-me-paragraph'>I'm here to show you most of my recent work, some of them are projects that I've built on my own, and some others are projects that I've learned by watching videos and   tried to build something simular without watching the code.                    tired to do the same on my own.
@@ -49,9 +42,9 @@ function Me() {
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
+          <p className='sign'>BeOnToP</p> 
         </div>
-
       </section>
       </AnimatePage>
     
