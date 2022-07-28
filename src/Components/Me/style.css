@@ -404,11 +404,13 @@
   }
 
   .about-me-paragraph{
-    font-size: 15px;
-    background-color: rgb(201, 198, 198);
+    letter-spacing: 0.09rem;
+    border-top: 1px solid black ;
+    font-size: 10px;
     border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
     padding: 10px;
-    border: 1px solid rgb(116, 114, 114);
+    border-bottom: 1px solid black ;
   }
   
   .my-image{

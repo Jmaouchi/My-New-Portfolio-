@@ -22,9 +22,9 @@ function Nav() {
         <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
           <li className='option-links'>
             <Link className='nav-links' to={'/'}>Home</Link>
-            <Link className='nav-links' to={'/about'}>Hobbies</Link>
-            <Link className='nav-links' to={'/work'}>Work</Link>
             <Link className='nav-links' to={'/hobbies'}>About</Link>
+            <Link className='nav-links' to={'/work'}>Work</Link>
+            <Link className='nav-links' to={'/about'}>Hobbies</Link>
           </li>
         </ul>
       </nav>
