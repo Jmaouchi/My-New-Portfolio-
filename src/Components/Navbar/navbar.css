@@ -18,7 +18,7 @@
 
 .nav-menu.active{
   background-color: rgb(4, 4, 4);
-  width: 10%;
+  width: 10.5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,14 +55,7 @@
 }
 
 .nav-menu{
-  /* display: grid;
-  grid-template-columns: repeat(5,auto); */
   list-style: none;
-  /* gap: none;
-  text-align: center;
-  width: 70vw;
-  justify-content: end;
-  margin-right: 2rem; */
   z-index: 999;
 }
 
@@ -71,6 +64,7 @@
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  font-size: 15px;
 }
 
 .nav-links:hover{
@@ -103,22 +97,22 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 500px;
+    height: 300px;
     top: 80px;
-    left: -160px;
+    left: -500px;
     opacity: 1;
     transition:  all 0.5s ease;
   }
 
 
-  .nav-links {
+  .nav-links{
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.2rem;
     width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 20px 10px 30px rgb(9, 9, 9);
+    background-color: none;
     margin: 5px;
     border: 1px solid rgb(100, 99, 99);
     border-radius: 10px;
@@ -185,13 +179,6 @@
     width: 80px;
   }
 
-  .jugurta-logo{
-    color: #c21717;
-    padding: 2px;
-    border-radius: 15px;
-    font-size: 12px;
-  }
-
   .menu-icon{
     font-size: 1.7rem;
   }
@@ -207,8 +194,13 @@
 
   .nav-menu.active{
     background-color: rgb(57, 55, 55);
-    border-radius: 30%;
     width: 15%;
+  }
+
+  .option-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .nav-links {
@@ -236,18 +228,25 @@
 
 
 
-@media screen and (max-width: 506px) {
+@media screen and (max-width: 560px) {
 
   .nav-menu.active{
-    background-color: rgb(57, 55, 55);
-    border-radius: 10%;
-    width: 35%;
-    height: 120px;
+    background-color: rgb(4, 4, 4);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100%;
+    left: 0;
+    opacity: 1;
+    transform: all 0.5s ease;
+    border: 1px solid white;  
   }
 
   .nav-links {
     padding: .2rem;
-    width: 70px;
+    width: 50px;
     font-size: 8px;
   }
 

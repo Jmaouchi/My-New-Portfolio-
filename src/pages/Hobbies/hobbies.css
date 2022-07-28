@@ -13,23 +13,10 @@
   margin-left: 25px;
 }
 
-.door::before{
-  content: "";
-  height: 100%;
-  width: 100%;
-  background-color: rgb(36, 34, 34);  
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-radius: var(--border-radius);
-  z-index: 1;
-}
-
-
 .heading-open{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
   background-color: rgb(135, 122, 122);
   color: white;
   border-radius: 50px;

@@ -46,7 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(33, 31, 31);
+  background: rgb(6, 6, 6);
 }
 
 .grid-bottom-line{
@@ -67,7 +67,7 @@
 }
 
 .work-area{
-  background: rgb(33, 31, 31);
+  background: rgb(6, 6, 6);
 }
 
 .work-area-content{
@@ -79,9 +79,13 @@
   font-size: 35px;
 }
 
+.text-wrapper-heading{
+  color: rgb(146, 138, 138);
+}
+
 .typewrite{
-  font-size: 25px;
-  color: white;
+  font-size: 18px;
+  color: rgb(85, 82, 82);
   margin-top: 15px;
 }
 
@@ -173,22 +177,24 @@
   color: rgb(191, 193, 195);
 }
 
-.something{
+.section-my-skills{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 45px;
-  background: rgb(33, 31, 31);
-}
-
-.span{
-  color: rgb(183, 179, 179);
+  background: rgb(6, 6, 6);
 }
 
 .section-heading{
   font-size: 45px; 
+  color: rgb(95, 93, 93);
 }
+
+.section-heading span{
+  color: rgb(228, 217, 217);
+}
+
 
 @media screen and (max-width: 756px){
 
@@ -223,6 +229,10 @@
 
   .typewrite{
     font-size: 15px;
+  }
+
+  .section-heading{
+    font-size: 20px;
   }
 
   .portfolio-img-background{

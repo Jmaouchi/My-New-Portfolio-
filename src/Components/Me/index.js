@@ -20,20 +20,24 @@ function Me() {
           <div className='content-about-me'>
             <img className='my-image' src={myImage} alt='my own img playing guitar'></img>
             <div className='content-context'>
-              <h1 className='left-heading'>Hello,</h1>
+              <h1 className='left-heading'><span className='span'>He</span>llo,</h1>
               <h2 className='inside-heading'>I am Jugurta</h2>
               <p className='welcome-paragraph'>
               <Typewriter onInit={(typewriter) =>{
-                  typewriter.typeString('Welcome to my protfolio. my life is nothing without coding!').pauseFor(1000).deleteAll().start()
-                  typewriter.typeString('I would love to see some feedbacks from you').pauseFor(1000).deleteAll().start()
-                  typewriter.typeString('Welcome to my protfolio. my life is nothing without coding!').start()
+                  typewriter.typeString('Welcome to my protfolio.').pauseFor(1000).deleteAll().start()
+                  typewriter.typeString('Ready to get into this industry').pauseFor(1000).deleteAll().start()
+                  typewriter.typeString('Please take your time to explore what ive been working on').pauseFor(1000).deleteAll().start()
+                  typewriter.typeString('I would love to see some feedbacks from you.').start()
                 }}/>
               </p>
               <div className='section-two-about-me'>
                 <div className='about-me-content-one'>
-                  <p className='about-me-paragraph'>I'm here to show you most of my recent work, some of them are projects that I've built on my own, and some others are projects that I've learned by watching videos and   tried to build something simular without watching the code.                    tired to do the same on my own.
-                  well yea it was hard for me to build them but I'm proud of what I did.
-                  please check them out bellow</p>
+                  <p className='about-me-paragraph'>I am a Fullstack developer! I started coding since i moved to the USA 2019. Started with 
+                  some basic HTML and CSS, then moved to JavaScript. I really enjoy my time when i code, and i would love 
+                  to be part of this industry soon, i can consider myself a fast learner and hungry to learn new 
+                  technologies. I do have a biology bachelors degree. i also can be a translator since i speak 5 languages, 
+                  (English, French, Arabic, Berber and a little Spanish). My hobbies are soccer and boxing
+                  </p>
                 </div>
 
                 <div className='about-me-content-two'>

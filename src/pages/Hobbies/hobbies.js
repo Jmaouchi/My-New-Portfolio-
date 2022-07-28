@@ -9,9 +9,8 @@ function Hobbies() {
       <Nav />
 
       <section className='door'>
-        <i class="fa-solid fa-lock"></i>
         <h2 className='heading-open'>
-          Open
+          In Progress...
         </h2>
       </section>
     </div>

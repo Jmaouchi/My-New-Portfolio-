@@ -2,14 +2,14 @@ import React from 'react'
 import './style.css'
 import { Link } from 'react-router-dom';
 import AnimatePage from '../../Components/animateB'
+import Navbar from '../../Components/Navbar/Nav';
+import Footer from '../../Components/Footer'
 function About() {
   return (
     <div className='contact-page'>
+      <Navbar />
       <div className='contact-section'>
         <div className='left-part'>
-          <div className='back'>
-            <Link to={'/'}><i className="fa-solid fa-backward"></i></Link>
-          </div>
           <h4 className='heading-happiness'><span className='color'>Happ</span>iness</h4>
           <p className='paragraph-left-part'><span className='color'>Do you want to build something that</span> will make your life easier!!</p>  
           <p to={'/work'} className='paragraph-left-part-projects'><span className='color'>Check Out My</span> Projects First</p>
@@ -25,14 +25,16 @@ function About() {
 
         <div className='right-part'>
         <Link to={'/work'}> <i className="fa-solid fa-circle-play"></i></Link>
-          <h5 className='heading-lets-talk'>Let's Talk Now</h5>
-          <h5 className='heading-add-review'>Add a review</h5>
+          <h5 className='heading-lets-talk'>Hire Me Now</h5>
+          <h5 className='heading-add-review'>Add A Review</h5>
           <div className='side-paragraph'>
             <p className='right-rotated-paragraph'>Noramohand</p>
             <div className='noramohand'></div>
           </div>
         </div>  
       </div>
+
+      <Footer />
     </div>   
   )
 }
