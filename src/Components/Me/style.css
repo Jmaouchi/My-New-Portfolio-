@@ -126,25 +126,6 @@
   cursor: pointer;
 }
 
-.scl-media{
-  position: absolute;
-  bottom: 0;
-  left: -2%;
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-    cursor: pointer;
-}
-
-
-.scl-item{
-  margin-top: 25px;
-  cursor: alias;
-  cursor: pointer;
-}
-
-
-
 @media screen and (max-width: 1540px) {
 
   .dots{
@@ -352,7 +333,7 @@
 }
 
 
-@media screen and (max-width: 509px) {
+@media screen and (max-width: 559px) {
 
   .content-about-me{
     display: flex;
@@ -421,6 +402,14 @@
     left: -110px;
     transform: rotate(-90deg);
   }
+
+  .about-me-paragraph{
+    font-size: 15px;
+    background-color: rgb(201, 198, 198);
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    border: 1px solid rgb(116, 114, 114);
+  }
   
   .my-image{
     opacity: 0.9;
@@ -434,28 +423,26 @@
   .left-heading{
     position: absolute;
     left: 40%;
-    font-size: 25px;
+    font-size: 28px;
     color: rgb(43, 41, 41);
   }
   
-  
   .inside-heading{
-    margin-top: 25px;
-    margin-left: 35%;
+    margin-top: 40px;
+    margin-left: 28%;
     color: rgb(43, 41, 41);
-    font-size: 17px;
+    font-size: 28px;
   }
   
   .welcome-paragraph{
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(58, 58, 58);
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 35px;
   }
   
-  
   .section-two-about-me{
-    margin-top: 0px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -470,7 +457,7 @@
   }
   
   .my-image-two{
-    width: 80%;
+    width: 70%;
     border-radius: 5px;
     margin-right: 0px;
     margin-bottom: 10px;
@@ -479,24 +466,5 @@
   .about-me-content-two{
     text-align: center;
     cursor: pointer;
-  }
-  
-  .scl-media{
-    position: absolute;
-    bottom: 0;
-    left: -2%;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    cursor: pointer;
-  }
-  
-  
-  .scl-item{
-    margin-top: 25px;
-    cursor: alias;
-    cursor: pointer;
-  }
-
-  
+  }  
 }
