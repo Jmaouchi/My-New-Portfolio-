@@ -9,16 +9,16 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^7.3.0"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jmaouchi/My-New-Portfolio-"
+    "url": "git+https://github.com/Jmaouchi/My-New-Portfolio-.git"
   },
+  "author": "Jugurta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jmaouchi/My-New-Portfolio-/issues"
+  },
+  "homepage": "https://github.com/Jmaouchi/My-New-Portfolio-#readme",
   "dependencies": {
     "dotenv": "^16.0.1",
     "graphql": "^16.5.0"
